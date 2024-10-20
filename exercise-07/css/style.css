@@ -1,1 +1,44 @@
 /* stylesheet for constitution.html */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100..700&family=Londrina+Solid:wght@100;300;400;900&display=swap');
+
+body {
+    font-family: "Arima", "Georgia", "Times New Roman", serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: #c92cac;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+
+}
+footer {
+    font-size: 14px;
+    color: #666;
+    text-decoration: underline wavy 2px
+}
+#preamble {
+    background-color: rgba(14, 31, 65, 0.2);
+}
+#preamble p {
+    font-size: 24px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.alt-bg {
+    background-color: rgba(201, 53, 68, 0.2);
+}
+a,
+a:link {
+    color: #42025f;
+}
+a:visited {
+    color: #855d98; 
+}
+a:hover {
+    color: rgb(201, 53, 68)
+}
+a:active {
+    color: rgb(245, 188, 78)
+}
+h3 { 
+    font-family: "Londrina Solid"
+}
