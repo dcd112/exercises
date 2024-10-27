@@ -1,1 +1,13 @@
 /* style sheet for polaroid.html */
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: "Gugi"
+}
+figcaption {
+    font-family: "Shadows Into Light"
+}
+
+#box {
+    border: 2px solid #222
+}
