@@ -14,3 +14,43 @@ footer {
 section {
   background-color: #ddd;
 }
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas: "masthead masthead masthead" "navigation welcome welcome"  "copyright copyright copyright";
+}
+header {
+  grid-area: masthead;
+}
+nav {
+  grid-area: navigation;
+}
+main {
+  grid-area: welcome;
+}
+
+footer {
+  grid-area: copyright;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-areas: "welcome welcome" "coming-soon cats";
+}
+#welcome {
+  grid-column: 1/ span 2;
+  
+}
+#coming-soon {
+  grid-column: 1;
+  grid-row: 2/3;
+}
+#cats {
+  grid-column: 2;
+  grid-row: 2/3;
+}
+
+

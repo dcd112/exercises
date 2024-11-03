@@ -19,3 +19,22 @@ section {
 /* DO NOT TOUCH ANY STYLES ABOVE THIS LINE! */
 /* WRITE YOUR STYLES BELOW! 👇👇👇           */
 /* **************************************** */
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  grid-template-areas: "masthead masthead" "navigation welcome" "copyright copyright";
+}
+header {
+  grid-area: masthead;
+}
+nav {
+  grid-area: navigation;
+}
+main {
+  grid-area: welcome;
+}
+footer {
+  grid-area: copyright;
+}
