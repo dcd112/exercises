@@ -22,4 +22,11 @@ figure {
 
 figure img {
   border: 1px solid #222;
+  float: left;
+  margin-right: 10px;
+}
+
+.alt img {
+  float: right;
+  margin-left: 10px;
 }

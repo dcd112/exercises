@@ -20,13 +20,30 @@ img {
 }
 main {
   max-width: 500px;
+  /* border: dashed blue */
+  /* position: relative; */
 }
 
 section {
   margin-bottom: 32px;
+  /* border: dashed red; */
+  position: relative;
 }
 
 section h4,
 section p {
   margin: 0;
+}
+
+img {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+time {
+  /* color: red */
+  position: absolute;
+  right: 0px;
+  top: 0px;
 }
